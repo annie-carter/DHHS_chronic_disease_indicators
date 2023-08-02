@@ -2,8 +2,8 @@
 # <bu>CLASSIFICATION PROJECT</bu>
 by Annie Carter
 Sourced by U.S. Department of Health & Human Services
+![image](https://github.com/annie-carter/DHHS_chronic_disease_indicators/assets/131205837/627005b8-5424-4961-85d0-f61b213445b1)
 
-![image.png](attachment:image.png)
 
 ## <u>Project Description</u>
 The dataset "'U.S._Chronic_Disease_Indicators__CDI_.csv'" contains information about various chronic disease indicators in the United States, including data on risk factors, prevalence, and health outcomes. It also includes demographic information such as age, gender, race, and geographical location.
@@ -49,16 +49,16 @@ There were 34  columns in the initial data and 9 columns after preparation; 1185
 Hypothesis 1 - 
 
 alpha = .05
-H0 =  Category of "male or female" gender has no relationship to cancer
-Ha = Category of "male or female" gender has a relationship to cancer
-Outcome: We accept or reject the Null Hypothesis.
+* H0 =  Category of "male or female" gender has no relationship to cancer
+* Ha = Category of "male or female" gender has a relationship to cancer
+* Outcome: We accept or reject the Null Hypothesis.
 
 Hypothesis 2 - 
 
 alpha = .05
-H0 = Race has no relationship to cancer  prevalence
-Ha = Race has a relationship to cancer  prevalence
-Outcome: We accept or reject the Null Hypothesis.
+* H0 = Race has no relationship to cancer  prevalence
+* Ha = Race has a relationship to cancer  prevalence
+* Outcome: We accept or reject the Null Hypothesis.
 
 ## <u>Planning Process</u>
 #### Planning
