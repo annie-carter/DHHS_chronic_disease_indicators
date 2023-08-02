@@ -23,28 +23,27 @@ The goal of this machine learning project is to build a predictive model that ca
 
 ## Data Dictionary
 
-There were 34  columns in the initial data and 9 columns after preparation; 1185676 rows in the intial data set. A random sample of 100000 rows using a random state of 42 was selected for this project. After preparation the central target column of cancer_Yes was created by combining the top for prevlant chronic diseases (Cancer, Cardiovascular Disase, Diabetes and Chronic Obstruction Pulmonary Disease (COPD). Columns were renamed to enhance readibaility and cleaned for integrity with 34973. Some definitions from original column names were derived from Center for Disease Control and Prevention (CDC) Morbidity and Mortaliy Weekly Report (MMWR) https://www.cdc.gov/mmwr/pdf/rr/rr6401.pdf 
+There were 34  columns in the initial data and 9 columns after preparation; 1185676 rows in the intial data set. A random sample of 1000000 rows using a random state of 42 was selected for this project. After preparation the central target column of cancer_Yes was created by combining the top for prevlant chronic diseases (Cancer, Cardiovascular Disase, Diabetes and Chronic Obstruction Pulmonary Disease (COPD). Columns were renamed to enhance readibaility and cleaned for integrity with 537407. Some definitions from original column names were derived from Center for Disease Control and Prevention (CDC) Morbidity and Mortaliy Weekly Report (MMWR) https://www.cdc.gov/mmwr/pdf/rr/rr6401.pdf 
 
 | Original                    |   Target    |       Datatype          |       Definition              |
 |-----------------------------|-------------|-------------------------|------------------------------ |
 |Topic (Cancer, Cardiovascular|             |                         |                               |
-|Disease, Diabetes, Chronic   |Yes_cancer   | 34973 non-null  int64   |  target variable              |
+|Disease, Diabetes, Chronic   |Yes_cancer   | 537407 non-null  int64   |  target variable              |
 |Obstructive Pulmonary Disease|             |                         |                               |
 
 
 |     Original                |   Feature    |       Datatype         |     Definition                |
 |-----------------------------|--------------|------------------------|------------------------------ |
-|YearStart                    |Year          | 34973 non-null  int64  | Year of observations          |
-|LocationAbbr                 |State (Abbr)  | 34973 non-null  object | State Abbreviation            |
-|Gender                       |Gender        | 34973 non-null  int64  | Male or Female                | 
-|Stratification1              |Demographics  | 34973 non-null  object | Race or Ethnicity             |    
-|GeoLocation                  |Geo Location  | 34973 non-null  object | Latitude and Longituted       |
-|DataValue                    |Observations  | 34973 non-null  int64  | # of occurance per 100K people|
-|Race/Ethnicity               |Race/Ethnicity| 34973 non-null  object | Race or Ethnicity             |
-|StratificationCategory1      |"same"        | 34973 non-null  object | Used for feature engineering  |
-|Longitude                    |Longitude     | 34973 non-null  float64| Longitude                     |
-|Latitude                     |Latitude      | 34973 non-null  float64| Latitude                      |
-|Yes_female                   |Yes_Female    | 34973 non-null  int64  | Female =1 Male=0 Other        |
+|YearStart                    |Year          | 537407 non-null  int64  | Year of observations          |
+|LocationAbbr                 |State (Abbr)  | 537407 non-null  object | State Abbreviation            |
+|Gender                       |Gender        | 537407 non-null  object  | Male or Female                | 
+|Stratification1              |Demographics  | 537407 non-null  object | Race or Ethnicity             |    
+|GeoLocation                  |Geo Location  | 537407 non-null  object | Latitude and Longituted       |
+|Race/Ethnicity               |Race/Ethnicity| 537407 non-null  object | Race or Ethnicity             |
+|StratificationCategory1      |"same"        | 537407 non-null  object | Used for feature engineering  |
+|Longitude                    |Longitude     | 537407 non-null  float64| Longitude                     |
+|Latitude                     |Latitude      | 537407 non-null  float64| Latitude                      |
+|Yes_female                   |Yes_Female    | 537407 non-null  int64  | Female =1 Male=0 Other        |
 
 Hypothesis 1 - 
 
