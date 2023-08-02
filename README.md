@@ -3,7 +3,8 @@
 by Annie Carter
 Sourced by U.S. Department of Health & Human Services
 
-![image.png](attachment:image.png)
+![image.png](https://img.freepik.com/premium-photo/healthcare-medical-doctor-stethoscope-touching-icon-dna-digital-healthcare-medical-diagnosis-patient-with-network-connection-modern-hologram-interface-medical-technology_34200-870.jpg?size=626&ext=jpg&ga=GA1.1.382400335.1688677589&semt=sph)
+
 
 ## <u>Project Description</u>
 The dataset "'U.S._Chronic_Disease_Indicators__CDI_.csv'" contains information about various chronic disease indicators in the United States, including data on risk factors, prevalence, and health outcomes. It also includes demographic information such as age, gender, race, and geographical location.
