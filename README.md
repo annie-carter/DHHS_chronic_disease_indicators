@@ -99,12 +99,12 @@ Outcome: We accept or reject the Null Hypothesis.
 ## <u>Instructions to Reproduce the Final Project Notebook</u> 
 To successfully run/reproduce the final project notebook, please follow these steps:
 
-Read this README.md document to familiarize yourself with the project details and key findings.
-Before proceeding, ensure that you have the necessary database credentials. Get data set from https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi Create .gitignore for privacy if necessary
-Clone the classification_project repository from my GitHub or download the following files: aquire.py, wrange.py or prepare.py, and final_report.ipynb. You can find these files in the project repository.
-Open the final_report.ipynb notebook in your preferred Jupyter Notebook environment or any compatible Python environment.
-Ensure that all necessary libraries or dependent programs are installed. You may need to install additional packages if they are not already present in your environment.
-Run the final_report.ipynb notebook to execute the project code and generate the results.
+1.  Read this README.md document to familiarize yourself with the project details and key findings.
+2. Before proceeding, ensure that you have the necessary database credentials. Get data set from https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi Create .gitignore for privacy if necessary
+3. Clone the classification_project repository from my GitHub or download the following files: aquire.py, wrange.py or prepare.py, and final_report.ipynb. You can find these files in the project repository.
+4. Open the final_report.ipynb notebook in your preferred Jupyter Notebook environment or any compatible Python environment.
+5. Ensure that all necessary libraries or dependent programs are installed. You may need to install additional packages if they are not already present in your environment.
+6. Run the final_report.ipynb notebook to execute the project code and generate the results.
 By following these instructions, you will be able to reproduce the analysis and review the project's final report. Feel free to explore the code, visualizations, and conclusions presented in the notebook.
 
 
