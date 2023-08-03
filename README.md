@@ -6,24 +6,28 @@ Sourced by U.S. Department of Health & Human Services
 
 
 ## <u>Project Description</u>
-The dataset "'U.S._Chronic_Disease_Indicators__CDI_.csv'" contains information about various chronic disease indicators in the United States, including data on risk factors, prevalence, and health outcomes. It also includes demographic information such as age, gender, race, and geographical location.
+This machine learning classification project seeks to conduct an in-depth analysis and predictive assessment of cancer prevalence in the United States using the dataset "U.S. Chronic Disease Indicators (CDI)." The dataset encompasses a rich array of chronic disease indicators, including cancer-related data, risk factors, prevalence rates, and health outcomes. Additionally, it comprises crucial demographic information, such as age, gender, race, and geographical location.
+
+* Cancer Prevalence: Notably, cancer stands as a primary cause of morbidity and mortality within the United States. Its impact extends to a substantial population across diverse age groups and geographical regions.
+
+By employing advanced classification techniques, our objective is to develop a robust predictive model that leverages the available demographic and chronic disease indicators to address the significant variations in cancer rates, often influenced by demographic factors like gender and race. This investigation aims to identify intricate patterns and critical risk factors associated with cancer. The valuable insights derived from this analysis will contribute to targeted interventions, early detection strategies, and enhanced healthcare planning, thereby aiding in the mitigation of cancer's impact on public health in the US.
 
 
 
 ## <u>Project Goal</u>
 
-The goal of this machine learning project is to build a predictive model that can accurately forecast the prevalence of the chronic disease cancer based on demographics and comparison to diabetes. This project determines factors contributing to the prevalence of the chronic disease of cancer in the United States.  The data collected from this project can help with future DHHS planning on distribution of resources for primary and secondary preventions (e.g. cancer awareness, screening) and improved research to decrease prevalence and improve state outcomes 
+TThe primary goal of this project is to develop a robust predictive model using advanced classification techniques that effectively utilizes demographic and chronic disease indicators to address variations in cancer rates, with a particular focus on demographic factors such as gender and race. Through this investigation, we aim to identify intricate patterns and critical risk factors associated with cancer prevalence. The valuable insights gained from this analysis will inform targeted interventions, early detection strategies, and improved healthcare planning, ultimately contributing to mitigating the impact of cancer on public health in the United States.
 
 
 ## <u>Initial Questions</u>
-1. Does category of  "male or female" have a relationship to cancer?
-2. Does state have relationship with cancer?
-3. Does year have a relationship with cancer?
-4. Does race have a relationship to cancer  prevalence?
+1. Is there a relationship between the category of "male or female" and cancer prevalence?
+2. Is there a relationship between the state and cancer prevalence?
+3. Is there a relationship between the year and cancer prevalence?
+4. Is there a relationship between race and cancer prevalence?
 
 ## Data Dictionary
 
-There were 34  columns in the initial data and 9 columns after preparation; 1185676 rows in the intial data set. A random sample of 1000000 rows using a random state of 42 was selected for this project. After preparation the central target column of cancer_Yes was created by combining the top for prevlant chronic diseases (Cancer, Cardiovascular Disase, Diabetes and Chronic Obstruction Pulmonary Disease (COPD). Columns were renamed to enhance readibaility and cleaned for integrity with 537407. Some definitions from original column names were derived from Center for Disease Control and Prevention (CDC) Morbidity and Mortaliy Weekly Report (MMWR) https://www.cdc.gov/mmwr/pdf/rr/rr6401.pdf 
+The initial dataset comprised 34 columns, which reduced to 9 columns after preparation. It contained 1,185,676 rows, but a random sample of 1,000,000 rows was chosen for this project using a random state of 42. During preparation, the central target column "cancer_Yes" was created by combining the top four prevalent chronic diseases: Cancer, Cardiovascular Disease, Diabetes, and Chronic Obstructive Pulmonary Disease (COPD). Column names were renamed for improved readability and cleaned for data integrity, resulting in 537,407 rows. Some column definitions were obtained from the Center for Disease Control and Prevention (CDC) Morbidity and Mortality Weekly Report (MMWR) at https://www.cdc.gov/mmwr/pdf/rr/rr6401.pdf. 
 
 | Original                    |   Target    |       Datatype          |       Definition              |
 |-----------------------------|-------------|-------------------------|------------------------------ |
