@@ -7,6 +7,8 @@ import seaborn as sns
 import os
 import folium
 import scipy.stats as stats
+from scipy.stats import pearsonr, spearmanr
+
 
 # import Machine Learning Library for classification
 from sklearn.model_selection import train_test_split
@@ -182,6 +184,7 @@ def gender_stat(sample_train):
     print('\n----')
     print(f'chi^2 = {chi2:.4f}')
     print(f'p_value = {p:.4f}')
+    print(f'The p-value is less than the alpha: {p < alpha}')
     if p < alpha:
         print('We reject the null')
     else:
@@ -243,6 +246,7 @@ def race_stats(sample_train):
     print('\n----')
     print(f'chi^2 = {chi2:.4f}')
     print(f'p-value = {p:.4f}')
+    print(f'The p-value is less than the alpha: {p < alpha}')
     if p < alpha:
         print('We reject the null')
     else:
@@ -295,7 +299,22 @@ def map_graph(sample_train):
     # Display the map
     map_usa
     
-
+def year_stat(sample_train, sample_validate):   
+    '''Pearson R stat for year'''
+    alpha = 0.05
+    train_r, train_p = pearsonr(sample_train.Year, sample_train.Yes_cancer)
+    validate_r, validate_p = pearsonr(sample_validate.Year, sample_validate.Yes_cancer)
+    #    test_r, test_p = pearsonr(test.chlorides, test.quality)
+    print('train_r:', train_r)
+    print('train_p:',train_p)
+    print('validate_r:', validate_r)
+    print('validate_p:', validate_p)
+    print(f'The p-value is less than the alpha: {validate_p < alpha}')
+    if validate_p < alpha:
+        print('Outcome: We reject the null')
+    else:
+        print("Outcome: We fail to reject the null")
+    
 def X_y_split(sample_train, sample_validate, sample_test):
     #Splitting the data in to X and Y to take out the data with curn and those without 
     sample_X_train = sample_train.select_dtypes(exclude=['object']).drop(columns=['Yes_cancer'])
