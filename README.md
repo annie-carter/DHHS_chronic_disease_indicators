@@ -54,14 +54,21 @@ Hypothesis 1 -
 alpha = .05
 * H0 =  Category of "male or female" gender has no relationship to cancer
 * Ha = Category of "male or female" gender has a relationship to cancer
-* Outcome: We accept or reject the Null Hypothesis.
+* Outcome: We reject the Null Hypothesis.
 
 Hypothesis 2 - 
 
 alpha = .05
 * H0 = Race has no relationship to cancer  prevalence
 * Ha = Race has a relationship to cancer  prevalence
-* Outcome: We accept or reject the Null Hypothesis.
+* Outcome: We reject the Null Hypothesis.
+
+Hypothesis 3 -
+
+alpha = .05
+H0 = Year has no relationship to cancer prevalence
+Ha = Year has a relationship to cancer prevalence
+* Outcome: We reject the Null Hypothesis.
 
 ## <u>Planning Process</u>
 #### Planning
