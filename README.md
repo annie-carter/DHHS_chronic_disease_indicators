@@ -154,6 +154,12 @@ To successfully run/reproduce the final project notebook, please follow these st
 By following these instructions, you will be able to reproduce the analysis and review the project's final report. Feel free to explore the code, visualizations, and conclusions presented in the notebook.
 
 [Jump to Navigation](#navigation)
+<a id='navigation'></a>
+[[Key Findings](#key-findings)]
+[[Next Steps](#next-steps)]
+[[Conclusion](#conclusion)]
+[[Recommendations](#recommendations)]
+[[References](#references)]
 
 ## <u>Key Findings</u>
 <span style ='color:#1F456E'>Relationship between Gender, Race/Ethnicity, and US Locations and Cancer:
