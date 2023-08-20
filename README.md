@@ -1,6 +1,6 @@
 # DHHS Chronic Disease Indicators - Cancer  Prevalence Analysis
 # <bu>CLASSIFICATION PROJECT</bu>
-by Annie Carter
+by Annie Carter, MSN, BS, RN
 Sourced by U.S. Department of Health & Human Services
 ![image](https://github.com/annie-carter/DHHS_chronic_disease_indicators/assets/131205837/627005b8-5424-4961-85d0-f61b213445b1)
 
@@ -77,6 +77,7 @@ The initial dataset comprised 34 columns, which reduced to 9 columns after prepa
 |Longitude                    |Longitude     | 537407 non-null  float64| Longitude                     |
 |Latitude                     |Latitude      | 537407 non-null  float64| Latitude                      |
 |Yes_female                   |Yes_Female    | 537407 non-null  int64  | Female =1 Male=0 Other        |
+
 [Jump to Navigation](#navigation)
 
 ## <u>Statistical Testing Hypothesis </u>
@@ -178,6 +179,7 @@ After evaluating multiple classification models, the Decision Tree model consist
 <span style ='color:#1F456E'>3. **Geo-Location Clustering:** Investigate the spatial distribution of cancer prevalence by selecting specific geographic areas. Perform clustering analysis to identify regions with similar cancer patterns based on geo-location data. This can help in understanding whether certain locations are more susceptible to higher or lower cancer rates and could guide targeted intervention strategies.
     
 <span style ='color:#1F456E'>4. **Feature Engeneer for Specific Cancers :** Enhance predictions and insights through targeted feature engineering for specific cancer types in the DHHS Chronic Disease Indicators analysis. Capture unique characteristics and risk factors, improving accuracy in prevalence predictions.
+
 [Jump to Navigation](#navigation)  
 
 ## <u>Recommendations</u>
@@ -190,6 +192,7 @@ After evaluating multiple classification models, the Decision Tree model consist
 <span style ='color:#1F456E'>- **Long-Term Monitoring:** Continuously monitor cancer prevalence trends over time to identify any emerging patterns and respond promptly to potential changes in cancer rates.
 
 <span style ='color:#1F456E'>By implementing these recommendations and conducting additional research, we can gain deeper insights into cancer prevalence, improve early detection, and implement effective interventions, ultimately leading to better cancer outcomes and improved public health.
+
 [Jump to Navigation](#navigation)
 
 ## <u>References</u>
