@@ -27,7 +27,7 @@ This machine learning classification project seeks to conduct an in-depth analys
 By employing advanced classification techniques, our objective is to develop a robust predictive model that leverages the available demographic and chronic disease indicators to address the significant variations in cancer rates, often influenced by demographic factors like gender and race. This investigation aims to identify intricate patterns and critical risk factors associated with cancer. The valuable insights derived from this analysis will contribute to targeted interventions, early detection strategies, and enhanced healthcare planning, thereby aiding in the mitigation of cancer's impact on public health in the US.
 
 
-
+[Jump to Navigation](#navigation)
 ## <u>Project Goal</u>
 
 TThe primary goal of this project is to develop a robust predictive model using advanced classification techniques that effectively utilizes demographic and chronic disease indicators to address variations in cancer rates, with a particular focus on demographic factors such as gender and race. Through this investigation, we aim to identify intricate patterns and critical risk factors associated with cancer prevalence. The valuable insights gained from this analysis will inform targeted interventions, early detection strategies, and improved healthcare planning, ultimately contributing to mitigating the impact of cancer on public health in the United States.
