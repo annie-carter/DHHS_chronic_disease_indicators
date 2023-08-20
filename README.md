@@ -4,6 +4,20 @@ by Annie Carter
 Sourced by U.S. Department of Health & Human Services
 ![image](https://github.com/annie-carter/DHHS_chronic_disease_indicators/assets/131205837/627005b8-5424-4961-85d0-f61b213445b1)
 
+___
+
+<a id='navigation'></a>
+[[Project Description](#project-description)]
+[[Statistical Testing Hypothesis](#statistical-tested-hypotheses)]
+[[Data Dictionary](#data-dictionary)]
+[[Planning_Process](#planning-process)]
+[[Project Reproduction](#project-reproduction)]
+[[Key Findings](#key-findings)]
+[[Next Steps](#next-steps)]
+[[Conclusion](#conclusion)]
+[[Recommendations](#recommendations)]
+[[References](#references)]
+
 
 ## <u>Project Description</u>
 This machine learning classification project seeks to conduct an in-depth analysis and predictive assessment of cancer prevalence in the United States using the dataset "U.S. Chronic Disease Indicators (CDI)." The dataset encompasses a rich array of chronic disease indicators, including cancer-related data, risk factors, prevalence rates, and health outcomes. Additionally, it comprises crucial demographic information, such as age, gender, race, and geographical location.
@@ -18,7 +32,22 @@ By employing advanced classification techniques, our objective is to develop a r
 
 TThe primary goal of this project is to develop a robust predictive model using advanced classification techniques that effectively utilizes demographic and chronic disease indicators to address variations in cancer rates, with a particular focus on demographic factors such as gender and race. Through this investigation, we aim to identify intricate patterns and critical risk factors associated with cancer prevalence. The valuable insights gained from this analysis will inform targeted interventions, early detection strategies, and improved healthcare planning, ultimately contributing to mitigating the impact of cancer on public health in the United States.
 
+**Tools & Technologies Used:** 
 
+![](https://img.shields.io/static/v1?message=Python&logo=python&labelColor=5c5c5c&color=2f5f98&logoColor=white&label=%20)
+![](https://img.shields.io/static/v1?message=Pandas&logo=pandas&labelColor=5c5c5c&color=2f5f98&logoColor=white&label=%20)
+![](https://img.shields.io/static/v1?message=SciKit-Learn&logo=scikit-learn&labelColor=5c5c5c&color=2f5f98&logoColor=white&label=%20)
+![](https://img.shields.io/static/v1?message=SciPy&logo=scipy&labelColor=5c5c5c&color=2f5f98&logoColor=white&label=%20)
+![](https://img.shields.io/static/v1?message=NumPy&logo=numpy&labelColor=5c5c5c&color=2f5f98&logoColor=white&label=%20)
+![](https://img.shields.io/static/v1?message=MatPlotLib&logo=python&labelColor=5c5c5c&color=2f5f98&logoColor=white&label=%20)
+![](https://img.shields.io/static/v1?message=Seaborn&logo=python&labelColor=5c5c5c&color=2f5f98&logoColor=white&label=%20)
+![](https://img.shields.io/static/v1?message=Canva&logo=canva&labelColor=5c5c5c&color=2f5f98&logoColor=white&label=%20)
+![](https://img.shields.io/static/v1?message=Markdown&logo=markdown&labelColor=5c5c5c&color=2f5f98&logoColor=white&label=%20)
+![](https://img.shields.io/static/v1?message=GitHub&logo=github&labelColor=5c5c5c&color=2f5f98&logoColor=white&label=%20)
+![](https://img.shields.io/static/v1?message=JupyterLab&logo=jupyter&labelColor=5c5c5c&color=2f5f98&logoColor=white&label=%20)
+![](https://img.shields.io/static/v1?message=GeoPandas&logo=pandas&labelColor=5c5c5c&color=2f5f98&logoColor=white&label=%20)
+
+[Jump to Navigation](#navigation)
 ## <u>Initial Questions</u>
 1. Is there a relationship between the category of "male or female" and cancer prevalence?
 2. Is there a relationship between the state and cancer prevalence?
@@ -48,7 +77,9 @@ The initial dataset comprised 34 columns, which reduced to 9 columns after prepa
 |Longitude                    |Longitude     | 537407 non-null  float64| Longitude                     |
 |Latitude                     |Latitude      | 537407 non-null  float64| Latitude                      |
 |Yes_female                   |Yes_Female    | 537407 non-null  int64  | Female =1 Male=0 Other        |
+[Jump to Navigation](#navigation)
 
+## <u>Statistical Testing Hypothesis </u>
 Hypothesis 1 - 
 
 alpha = .05
@@ -69,6 +100,8 @@ alpha = .05
 H0 = Year has no relationship to cancer prevalence
 Ha = Year has a relationship to cancer prevalence
 * Outcome: We reject the Null Hypothesis.
+  
+[Jump to Navigation](#navigation)
 
 ## <u>Planning Process</u>
 #### Planning
@@ -105,6 +138,8 @@ Ha = Year has a relationship to cancer prevalence
 14. Generate a Prediction.csv file containing predictions from the chosen model on test data for further evaluation and utilization.
 
 15. Maintain meticulous project documentation, adhering to scientific and professional standards, to ensure successful presentation or seamless deployment.
+    
+[Jump to Navigation](#navigation)
 
 ## <u>Instructions to Reproduce the Final Project Notebook</u> 
 To successfully run/reproduce the final project notebook, please follow these steps:
@@ -117,6 +152,7 @@ To successfully run/reproduce the final project notebook, please follow these st
 6. Run the final_report.ipynb notebook to execute the project code and generate the results.
 By following these instructions, you will be able to reproduce the analysis and review the project's final report. Feel free to explore the code, visualizations, and conclusions presented in the notebook.
 
+[Jump to Navigation](#navigation)
 
 ## <u>Key Findings</u>
 <span style ='color:#1F456E'>Relationship between Gender, Race/Ethnicity, and US Locations and Cancer:
@@ -125,10 +161,14 @@ The analysis revealed significant relationships between gender, race/ethnicity, 
 <span style ='color:#1F456E'>Decision Tree Model Outperformed Other Classification Models:
 After evaluating multiple classification models, the Decision Tree model consistently outperformed Logistic Regression and Random Forest models in all phases (train, validate, and test). The Decision Tree model achieved an average accuracy of 80%, surpassing the baseline accuracy of 69%.
 
+[Jump to Navigation](#navigation)
+
 ## <u>Conclusion</u>
 <span style ='color:#1F456E'>The analysis of the DHHS Chronic Disease Indicators dataset revealed a significant relationship between gender, race/ethnicity, US locations, and cancer prevalence. Among the classification models used, the Decision Tree Model consistently outperformed other models in all three evaluation metrics: train, validate, and test data. The Decision Tree Model's performance averaged at 80%, surpassing the baseline of 69%. This suggests that the Decision Tree Model is a reliable approach for predicting cancer prevalence.
 
 <span style ='color:#1F456E'>Notably, gender and race/ethnicity showed significant associations with cancer prevalence. Prostate, lung, and colorectal cancers were most prevalent in men, accounting for 42% of cases, while breast, lung, and colorectal cancers were more prevalent in women, comprising half of all cases. Additionally, lung cancer death rates declined substantially in both men and women between 1990 and 2016, indicating the success of aggressive awareness campaigns and increased breast cancer screening. Breast cancer death rates also showed a significant decline during this period, along with prostate and colorectal cancer death rates.
+
+[Jump to Navigation](#navigation)
 
 ## <u>Next Steps</u>
 <span style ='color:#1F456E'> 1. **Time-Series Analysis:** If time permits, conducting a time-series analysis could provide valuable insights into the trends and patterns of cancer prevalence over the years, especially the drop observed between 2008 and 2016. Exploring this time range in more detail may reveal underlying factors or interventions that contributed to the decrease in cancer rates.
@@ -138,7 +178,8 @@ After evaluating multiple classification models, the Decision Tree model consist
 <span style ='color:#1F456E'>3. **Geo-Location Clustering:** Investigate the spatial distribution of cancer prevalence by selecting specific geographic areas. Perform clustering analysis to identify regions with similar cancer patterns based on geo-location data. This can help in understanding whether certain locations are more susceptible to higher or lower cancer rates and could guide targeted intervention strategies.
     
 <span style ='color:#1F456E'>4. **Feature Engeneer for Specific Cancers :** Enhance predictions and insights through targeted feature engineering for specific cancer types in the DHHS Chronic Disease Indicators analysis. Capture unique characteristics and risk factors, improving accuracy in prevalence predictions.
-    
+[Jump to Navigation](#navigation)  
+
 ## <u>Recommendations</u>
 <span style ='color:#1F456E'>- **Targeted Awareness Campaigns:** Focus on raising awareness about specific cancer types that are most prevalent in certain gender and race/ethnicity groups. Tailored awareness campaigns can improve early detection and prompt appropriate interventions.
 
@@ -149,3 +190,9 @@ After evaluating multiple classification models, the Decision Tree model consist
 <span style ='color:#1F456E'>- **Long-Term Monitoring:** Continuously monitor cancer prevalence trends over time to identify any emerging patterns and respond promptly to potential changes in cancer rates.
 
 <span style ='color:#1F456E'>By implementing these recommendations and conducting additional research, we can gain deeper insights into cancer prevalence, improve early detection, and implement effective interventions, ultimately leading to better cancer outcomes and improved public health.
+[Jump to Navigation](#navigation)
+
+## <u>References</u>
+- Kim, H. I., Lim, H., & Moon, A. (2018). Sex Differences in Cancer: Epidemiology, Genetics and Therapy. Biomolecules & therapeutics, 26(4), 335–342. https://doi.org/10.4062/biomolther.2018.103
+
+- Özdemir, B. C., & Dotto, G. P. (2017). Racial Differences in Cancer Susceptibility and Survival: More Than the Color of the Skin?. Trends in cancer, 3(3), 181–197. https://doi.org/10.1016/j.trecan.2017.02.002
